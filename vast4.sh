@@ -65,3 +65,12 @@ echo "---------------------------"
 sudo nohup ./xengpuminer -d1 > xengpuminer-1.log 2>&1 &
 sleep 5
 echo "---------------------------"
+
+sudo nohup ./xengpuminer -d2 > xengpuminer-2.log 2>&1 &
+sleep 5
+echo "---------------------------"
+
+sudo nohup ./xengpuminer -d3 > xengpuminer-3.log 2>&1 &
+sleep 5
+echo "---------------------------"
+
