@@ -31,7 +31,7 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
       ```
 
       
-  For 6 X GPU use vast6.sh:
+   For 6 X GPU use vast6.sh:
       ```
    sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/vast6.sh && sudo chmod +x vast6.sh && sudo ./vast6.sh
       ```
