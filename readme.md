@@ -1,10 +1,10 @@
 Easily set up a GPU mining server for XENBLOCKS mining. A single line of code installs all dependencies and executes GPU mining. Here's how you get started:
 
-# Upgarded version fpr XENGPU mining - GPUs 1x-14x
+# Upgarded version for XENGPU mining - GPUs 1x-14x
 # XENBLOCKS - Effortless GPU Mining on VAST.AI
 1. **VAST.AI Mining - vast.ai (verified)**:
    - First, clone this repository to your own public repository.
-   - Navigate to your repo, open `vast.sh` (depending on where you mine or vast4.sh or vast8.sh, depending on the number of GPUs) and replace the existing address with your own:
+   - Navigate to your repo, open `vast.sh` (depending on where you mine from vast.sh, vast2.sh to vast14.sh, depending on the number of GPUs) and replace the existing address with your own:
    - ![image](https://github.com/JozefJarosciak/xgpu/assets/3492464/5ddc43df-4e40-44b9-9aa9-4584e2e1b724)
    - Go to Vast.ai, select Templates / Cuda:12.0.1-Devel-Ubuntu20.04 option:
       ![image](https://github.com/JozefJarosciak/xgpu/assets/3492464/cf8fb6fa-3747-4777-aafc-5d025f4f12ce)
