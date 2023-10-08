@@ -71,7 +71,7 @@ Tail logs:
 ```
 tail -f /root/XENGPUMiner/miner.log
 tail -f /root/XENGPUMiner/xengpuminer.log
-tail -f /root/XENGPUMiner/xengpuminer-0.log (to xengpuminer-7.log)
+tail -f /root/XENGPUMiner/xengpuminer-0.log (to xengpuminer-13.log)
 ```
 
 Download the latest miner.py file only:
