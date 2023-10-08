@@ -1,5 +1,6 @@
 Easily set up a GPU mining server for XENBLOCKS mining. A single line of code installs all dependencies and executes GPU mining. Here's how you get started:
 
+# Upgarded version fpr XENGPU mining - GPUs 1x-14x
 # XENBLOCKS - Effortless GPU Mining on VAST.AI
 1. **VAST.AI Mining - vast.ai (verified)**:
    - First, clone this repository to your own public repository.
@@ -11,7 +12,7 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
       ![image](https://github.com/JozefJarosciak/xgpu/assets/3492464/1d7a937c-8f64-453b-8ff1-b8b169f427df)
    - Now you're all set!
    - Use a single line command below to get a new GPU server up and running (from 0 to full-speed mining with one press of a button).
-   - Note: of course replace (JozefJarosciak/xgpu/main/vast.sh, or vash4.sh or vast8.sh) with a path to your repo
+   - Note: of course replace (Selfcopy/xgpu/main/vast.sh, or vash4.sh or vast8.sh) with a path to your repo
      
    For single GPU use vast.sh:
       ```
@@ -41,6 +42,15 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
    sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/vast8.sh && sudo chmod +x vast8.sh && sudo ./vast8.sh
       ```
 
+For 12 X GPU use vast12.sh:
+      ```
+   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/vast12.sh && sudo chmod +x vast12.sh && sudo ./vast12.sh
+      ```
+
+      For 14 X GPU use vast14.sh:
+      ```
+   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/vast14.sh && sudo chmod +x vast14.sh && sudo ./vast14.sh
+      ```
 
 1.1 **VAST.AI Video DEMO**:
    
