@@ -1,6 +1,6 @@
 Easily set up a GPU mining server for XENBLOCKS mining. A single line of code installs all dependencies and executes GPU mining. Here's how you get started:
 
-# @JozefJarosciak version but for XENGPU mining from single to 14x GPUs
+# XENGPU mining from single to 14x GPUs
 # XENBLOCKS - Effortless GPU Mining on VAST.AI
 1. **VAST.AI Mining - vast.ai (verified)**:
    - First, clone this repository to your own public repository.
@@ -67,8 +67,11 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
    ```
    apt update && apt -y install wget && wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/runpod.sh && chmod +x runpod.sh && ./runpod.sh
    ```
-
-
+2.** Config just update wallet
+   ```
+   apt update && apt -y install wget && wget https://raw.githubusercontent.com/Selfcopy/XENGPUMiner/blob/main/config.conf && chmod +x config.conf && ./config.conf
+   ```
+  
 # XENBLOCKS - USEFUL COMMANDS 
 
 Tail logs:
