@@ -28,7 +28,7 @@ sleep 5
 echo "---------------------------"
 
 # Clone the repository and build the project
-git clone https://github.com/shanhaicoder/XENGPUMiner.git
+git clone https://github.com/Selfcopy/XENGPUMiner.git
 sleep 5
 echo "---------------------------"
 
@@ -45,9 +45,7 @@ sleep 5
 echo "---------------------------"
 
 # Update the configuration file
-sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0x63465826d61715a135a03be7BF85C22c5961769d/g' config.conf
-sleep 5
-echo "---------------------------"
+
 
 # Install Python requirements
 sudo pip install -U -r requirements.txt
