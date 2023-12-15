@@ -43,7 +43,11 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
    sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/vast8.sh && sudo chmod +x vast8.sh && sudo ./vast8.sh
       ```
 
-
+   For 10 X GPU use vast12.sh:
+      ```
+   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/vast10.sh && sudo chmod +x vast10.sh && sudo ./vast10.sh
+      ```
+      
    For 12 X GPU use vast12.sh:
       ```
    sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Selfcopy/xgpu/main/vast12.sh && sudo chmod +x vast12.sh && sudo ./vast12.sh
